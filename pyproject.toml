@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "package2"
+version = "0.1.0"
+
+[tool.setuptools]
+packages = ["package2", "chunker_package"]
